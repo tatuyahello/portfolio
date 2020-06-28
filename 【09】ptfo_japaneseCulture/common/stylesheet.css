@@ -1,0 +1,241 @@
+a{
+	text-decoration: none;
+}
+
+html,body{
+	width: 100vw;
+	margin: 0;
+}
+body{
+	position: relative;
+	font-family: 'Quicksand','Noto Sans Japanese', sans-serif;
+}
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(./img/mt-fuji-1346096_1920.jpg);
+	background-size: cover;
+	background-position: center;
+}
+header section{
+	width: 90%;
+	margin: 0 auto;
+}
+header .nav{
+	width: 100%;
+	height: 60px;
+	padding-top: 50px;
+}
+header .nav a{
+	display: inline-block;
+	height: 30px;
+	float: right;
+	font-size: 18px;
+	color: black;
+	padding: 15px 30px;
+}
+header .desc{
+	width: 50%;
+	height: 60%;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+header .desc h1{
+	font-size: 70px;
+}
+header .desc p{
+	font-size: 22px;
+}
+main,
+article{
+	width: 100vw;
+}
+main section{
+	width: 95%;
+	max-width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+main .row{
+	width: 100%;
+	text-align: center;
+}
+main .row01_l{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+main .row01_l .img_koi{
+	background-image: url(./img/japan-4521847_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 83.3333%;
+	height:200px;
+	margin: 8.3333%;
+}
+main .row01_l p{
+	width: 83.3333%;
+	height:200px;
+	margin: 8.3333%;
+	text-align: left;
+	font-size: 16px;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+main .img_hiroshima{
+	display: inline-block;
+	background-image: url(./img/hiroshima-725801_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 55%;
+	height: calc(400px + 5vw);
+	margin: 2.5%;
+	vertical-align: top;
+}
+main .row02_l{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+}
+main .img_mtFuji{
+	display: inline-block;
+	background-image: url(./img/mount-fuji-2305606_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 91.6666%;
+	height: 200px;
+	margin: 4.1666%;
+	vertical-align: top;
+}
+main .row02_l_b{
+	width: 100%;
+}
+main .row02_l .img_ojizosan{
+	display: inline-block;
+	background-image: url(./img/kyoto-1976538_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 41.6666%;
+	height:200px;
+	margin: 4.1666%;
+	vertical-align: top;
+}
+main .row02_l p{
+	display: inline-block;
+	width: 40.6666%;
+	height:200px;
+	margin: 4.1666%;
+	text-align: left;
+	font-size: 16px;
+	vertical-align: top;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+main .img_kiyomizu{
+	display: inline-block;
+	background-image: url(./img/illustration-style-5071961_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 27.7777%;
+	height: calc(400px + 5vw);
+	margin: 2.7777%;
+}
+main .row03 p{
+	display: inline-block;
+	width: 25.0000%;
+	height: 200px;
+	margin: 2.5%;
+	text-align: left;
+	font-size: 16px;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+main .img_sakura{
+	display: inline-block;
+	background-image: url(./img/spring-2218771_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 55.0000%;
+	height: 200px;
+	margin: 2.5%;
+	vertical-align: top;
+}
+main .img_osakajo{
+	display: inline-block;
+	background-image: url(./img/castle-1886938_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+	height: 200px;
+	margin: 2.5%;
+	vertical-align: top;
+}
+main .img_neon{
+	display: inline-block;
+	background-image: url(./img/japan-2014618_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+	height: 200px;
+	margin: 2.5%;
+	vertical-align: top;
+}
+main .row04 p{
+	display: inline-block;
+	width: 25%;
+	height: 200px;
+	margin: 2.5%;
+	text-align: left;
+	font-size: 16px;
+	vertical-align: top;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+main .row05_l{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+}
+main .row05_l .img_kinkakuji{
+	width: 91.6666%;
+	height: 200px;
+	margin: 4.1666%;
+	background-image: url(./img/kinkaku-ji-3970248_1920.jpg);
+	background-size: cover;
+	background-position: center;
+}
+main .row05_l_b{
+	width: 100%;
+}
+main .row05_l_b .img_torii{
+	display: inline-block;
+	width: 41.6666%;
+	height: 200px;
+	margin: 4.1666%;
+	vertical-align: top;
+	background-image: url(./img/torii-1886975_1920.jpg);
+	background-size: cover;
+	background-position: center;
+}
+main .row05_l_b p{
+	display: inline-block;
+	width: 40.6666%;
+	height: 200px;
+	margin: 4.1666%;
+	text-align: left;
+	font-size: 16px;
+	vertical-align: top;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+main .img_shirakawago{
+	display: inline-block;
+	background-image: url(./img/shirakawa-go-3968395_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+	height: calc(400px + 2.5vw);
+	margin: 2.5%;
+	vertical-align: top;
+}
